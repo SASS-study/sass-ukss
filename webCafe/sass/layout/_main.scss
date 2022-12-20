@@ -1,0 +1,40 @@
+.main {
+  display: flow-root;
+  background: #fff;
+  min-height: 450px;
+  padding: 30px 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.group {
+  margin: 0 15px;
+  float: left;
+
+  &1 {
+    width: 250px;
+  }
+
+  &2 {
+    width: 380px;
+    height: 300px;
+  }
+
+  &3 {
+    width: 190px;
+  }
+}
+
+/* group1 */
+@import "../components/login";
+@import "../components/validation";
+@import "../components/term";
+
+/* group2 */
+@import "../components/search";
+@import "../components/board";
+@import "../components/news";
+
+/* group3 */
+@import "../components/event";
+@import "../components/related";
+@import "../components/favorite";
